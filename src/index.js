@@ -1,5 +1,4 @@
-//module.exports = 
-function toReadable (number) {
+module.exports = function toReadable (number) {
     const ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
     const teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
     const tens = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
@@ -30,6 +29,5 @@ function toReadable (number) {
         }
     }
 
-    console.log(result);
+    return result;
   }
-  toReadable (221);
